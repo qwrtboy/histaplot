@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace Plotter.Items.DataItems.HistaSet
 {
-    internal class Histagram
+    internal class HistagramData
     {
         private IEnumerable<float> _elements;
 
-        private Histagram(IEnumerable<float> elements)
+        private HistagramData(IEnumerable<float> elements)
         {
             _elements = elements;
         }
@@ -15,7 +15,7 @@ namespace Plotter.Items.DataItems.HistaSet
         /// <summary>
         /// Init histagram by data-seq.
         /// </summary>
-        public static Histagram Init(IEnumerable<float> elements) => new Histagram(elements);
+        public static HistagramData Init(IEnumerable<float> elements) => new HistagramData(elements);
 
         /// <summary>
         /// Processing data-seq: calc basket contents.

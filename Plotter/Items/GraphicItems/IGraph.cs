@@ -2,6 +2,6 @@
 {
     public interface IGraph
     {
-        void Plot(string targetFileName);
+        void Plot();
     }
 }

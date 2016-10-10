@@ -4,7 +4,7 @@ namespace Plotter.Items.GraphicItems
 {
     internal class Graphic : IGraph
     {
-        public void Plot(string targetFileName)
+        public void Plot()
         {
             throw new NotImplementedException();
         }
