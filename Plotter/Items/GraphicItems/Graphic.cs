@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Plotter.GraphicItems
+namespace Plotter.Items.GraphicItems
 {
     internal class Graphic : IGraph
     {

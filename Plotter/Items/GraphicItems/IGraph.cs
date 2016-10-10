@@ -1,4 +1,4 @@
-﻿namespace Plotter.GraphicItems
+﻿namespace Plotter.Items.GraphicItems
 {
     public interface IGraph
     {

@@ -40,11 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GraphicItems\Graphic.cs" />
-    <Compile Include="GraphicItems\Histogramm.cs" />
-    <Compile Include="GraphicItems\IGraph.cs" />
+    <Compile Include="Constructor.cs" />
+    <Compile Include="Items\DataItems\HistaSet.cs" />
+    <Compile Include="Items\GraphicItems\Graphic.cs" />
+    <Compile Include="Items\GraphicItems\Histogramm.cs" />
+    <Compile Include="Items\GraphicItems\IGraph.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
