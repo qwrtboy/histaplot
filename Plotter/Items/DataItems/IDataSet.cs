@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Plotter
+namespace Plotter.Items.DataItems
 {
-    internal class Constructor
+    internal interface IDataSet<TKey>
     {
-        
     }
 }
